@@ -1,0 +1,8 @@
+log/
+data/
+slurm_out/
+data_04/
+__pycache__/
+*.zip
+vis/
+exp/
