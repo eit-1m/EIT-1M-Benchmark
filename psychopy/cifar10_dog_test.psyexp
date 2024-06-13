@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.1.3">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="test1" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="warning" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="hello">
+      <RoutineSettingsComponent name="hello" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="hello" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Hello" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Hello" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Hello! This is a test from VLIS LAB.&amp;#10;&amp;#10;We will get your EEG signals when you look at the selected images. Please stay focused.&amp;#10;&amp;#10;Thank you for your efforts!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="textBlock1">
+      <RoutineSettingsComponent name="textBlock1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="textBlock1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Dog" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="fixation" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="readText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="readText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Please read the word &quot;Dog&quot;." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="fixation2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixation2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="5.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ParallelOutComponent name="p_port" plugin="None">
+        <Param val="0x5FF8" valType="str" updates="None" name="address"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="p_port" valType="code" updates="None" name="name"/>
+        <Param val="EIO" valType="str" updates="None" name="register"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="1" valType="code" updates="None" name="startData"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="text.status==STARTED" valType="code" updates="None" name="startVal"/>
+        <Param val="2" valType="code" updates="None" name="stopData"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreen"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+      </ParallelOutComponent>
+    </Routine>
+    <Routine name="quickTextBlock1">
+      <RoutineSettingsComponent name="quickTextBlock1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="quickTextBlock1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="quickText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="quickText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Dog" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ParallelOutComponent name="p_port2" plugin="None">
+        <Param val="0x5FF8" valType="str" updates="None" name="address"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="p_port2" valType="code" updates="None" name="name"/>
+        <Param val="EIO" valType="str" updates="None" name="register"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="10" valType="code" updates="None" name="startData"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="11" valType="code" updates="None" name="stopData"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreen"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+      </ParallelOutComponent>
+      <TextComponent name="quickfixation" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="quickfixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="quickTextBlock2">
+      <RoutineSettingsComponent name="quickTextBlock2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="quickTextBlock2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="quickText_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="quickText_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.00" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Dog" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ParallelOutComponent name="p_port2_2" plugin="None">
+        <Param val="0x5FF8" valType="str" updates="None" name="address"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="p_port2_2" valType="code" updates="None" name="name"/>
+        <Param val="EIO" valType="str" updates="None" name="register"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="12" valType="code" updates="None" name="startData"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="13" valType="code" updates="None" name="stopData"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreen"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+      </ParallelOutComponent>
+      <TextComponent name="quickfixation_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="quickfixation_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.05" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="imageBlock1">
+      <RoutineSettingsComponent name="imageBlock1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="imageBlock1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="image" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$Pic" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ParallelOutComponent name="p_port3" plugin="None">
+        <Param val="0x5FF8" valType="str" updates="None" name="address"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="p_port3" valType="code" updates="None" name="name"/>
+        <Param val="EIO" valType="str" updates="None" name="register"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="100" valType="code" updates="None" name="startData"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="101" valType="code" updates="None" name="stopData"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreen"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+      </ParallelOutComponent>
+      <TextComponent name="fixation_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixation_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.05" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="part1">
+      <RoutineSettingsComponent name="part1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="part1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Part1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Part1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Look and read" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="quicklooktext">
+      <RoutineSettingsComponent name="quicklooktext" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="quicklooktext" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="quickLookText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="quickLookText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="take a glance at the text" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Part3">
+      <RoutineSettingsComponent name="Part3" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Part3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="quicklookImage" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="quicklookImage" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="look at the image and think" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="imageBlock2">
+      <RoutineSettingsComponent name="imageBlock2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="imageBlock2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="image_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$Pic" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ParallelOutComponent name="p_port2_3" plugin="None">
+        <Param val="0x5FF8" valType="str" updates="None" name="address"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="p_port2_3" valType="code" updates="None" name="name"/>
+        <Param val="EIO" valType="str" updates="None" name="register"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="102" valType="code" updates="None" name="startData"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="103" valType="code" updates="None" name="stopData"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreen"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+      </ParallelOutComponent>
+      <TextComponent name="quickfixation_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="quickfixation_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.05" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.05" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="hello"/>
+    <Routine name="part1"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="2" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="textBlock1"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="quicklooktext"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="5" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="quickTextBlock1"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="quicklooktext"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_3">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="10" valType="num"/>
+      <Param name="name" updates="None" val="trials_3" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="quickTextBlock2"/>
+    <LoopTerminator name="trials_3"/>
+    <Routine name="Part3"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_4">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Pic': 'cifar10png\\test\\dog\\0298.png'}, {'Pic': 'cifar10png\\test\\dog\\0267.png'}, {'Pic': 'cifar10png\\test\\dog\\0501.png'}, {'Pic': 'cifar10png\\test\\dog\\0515.png'}, {'Pic': 'cifar10png\\test\\dog\\0273.png'}, {'Pic': 'cifar10png\\test\\dog\\0529.png'}, {'Pic': 'cifar10png\\test\\dog\\0918.png'}, {'Pic': 'cifar10png\\test\\dog\\0924.png'}, {'Pic': 'cifar10png\\test\\dog\\0930.png'}, {'Pic': 'cifar10png\\test\\dog\\0703.png'}, {'Pic': 'cifar10png\\test\\dog\\0065.png'}, {'Pic': 'cifar10png\\test\\dog\\0071.png'}, {'Pic': 'cifar10png\\test\\dog\\0717.png'}, {'Pic': 'cifar10png\\test\\dog\\0059.png'}, {'Pic': 'cifar10png\\test\\dog\\0878.png'}, {'Pic': 'cifar10png\\test\\dog\\0850.png'}, {'Pic': 'cifar10png\\test\\dog\\0688.png'}, {'Pic': 'cifar10png\\test\\dog\\0844.png'}, {'Pic': 'cifar10png\\test\\dog\\0677.png'}, {'Pic': 'cifar10png\\test\\dog\\0111.png'}, {'Pic': 'cifar10png\\test\\dog\\0105.png'}, {'Pic': 'cifar10png\\test\\dog\\0663.png'}, {'Pic': 'cifar10png\\test\\dog\\0893.png'}, {'Pic': 'cifar10png\\test\\dog\\0139.png'}, {'Pic': 'cifar10png\\test\\dog\\0887.png'}, {'Pic': 'cifar10png\\test\\dog\\0313.png'}, {'Pic': 'cifar10png\\test\\dog\\0475.png'}, {'Pic': 'cifar10png\\test\\dog\\0461.png'}, {'Pic': 'cifar10png\\test\\dog\\0307.png'}, {'Pic': 'cifar10png\\test\\dog\\0449.png'}, {'Pic': 'cifar10png\\test\\dog\\0448.png'}, {'Pic': 'cifar10png\\test\\dog\\0460.png'}, {'Pic': 'cifar10png\\test\\dog\\0306.png'}, {'Pic': 'cifar10png\\test\\dog\\0312.png'}, {'Pic': 'cifar10png\\test\\dog\\0474.png'}, {'Pic': 'cifar10png\\test\\dog\\0138.png'}, {'Pic': 'cifar10png\\test\\dog\\0886.png'}, {'Pic': 'cifar10png\\test\\dog\\0892.png'}, {'Pic': 'cifar10png\\test\\dog\\0104.png'}, {'Pic': 'cifar10png\\test\\dog\\0662.png'}, {'Pic': 'cifar10png\\test\\dog\\0676.png'}, {'Pic': 'cifar10png\\test\\dog\\0110.png'}, {'Pic': 'cifar10png\\test\\dog\\0845.png'}, {'Pic': 'cifar10png\\test\\dog\\0689.png'}, {'Pic': 'cifar10png\\test\\dog\\0851.png'}, {'Pic': 'cifar10png\\test\\dog\\0879.png'}, {'Pic': 'cifar10png\\test\\dog\\0058.png'}, {'Pic': 'cifar10png\\test\\dog\\0070.png'}, {'Pic': 'cifar10png\\test\\dog\\0716.png'}, {'Pic': 'cifar10png\\test\\dog\\0702.png'}, {'Pic': 'cifar10png\\test\\dog\\0064.png'}, {'Pic': 'cifar10png\\test\\dog\\0931.png'}, {'Pic': 'cifar10png\\test\\dog\\0925.png'}, {'Pic': 'cifar10png\\test\\dog\\0919.png'}, {'Pic': 'cifar10png\\test\\dog\\0528.png'}, {'Pic': 'cifar10png\\test\\dog\\0514.png'}, {'Pic': 'cifar10png\\test\\dog\\0272.png'}, {'Pic': 'cifar10png\\test\\dog\\0266.png'}, {'Pic': 'cifar10png\\test\\dog\\0500.png'}, {'Pic': 'cifar10png\\test\\dog\\0299.png'}, {'Pic': 'cifar10png\\test\\dog\\0270.png'}, {'Pic': 'cifar10png\\test\\dog\\0516.png'}, {'Pic': 'cifar10png\\test\\dog\\0502.png'}, {'Pic': 'cifar10png\\test\\dog\\0264.png'}, {'Pic': 'cifar10png\\test\\dog\\0258.png'}, {'Pic': 'cifar10png\\test\\dog\\0933.png'}, {'Pic': 'cifar10png\\test\\dog\\0099.png'}, {'Pic': 'cifar10png\\test\\dog\\0927.png'}, {'Pic': 'cifar10png\\test\\dog\\0714.png'}, {'Pic': 'cifar10png\\test\\dog\\0072.png'}, {'Pic': 'cifar10png\\test\\dog\\0066.png'}, {'Pic': 'cifar10png\\test\\dog\\0700.png'}, {'Pic': 'cifar10png\\test\\dog\\0728.png'}, {'Pic': 'cifar10png\\test\\dog\\0847.png'}, {'Pic': 'cifar10png\\test\\dog\\0853.png'}, {'Pic': 'cifar10png\\test\\dog\\0660.png'}, {'Pic': 'cifar10png\\test\\dog\\0106.png'}, {'Pic': 'cifar10png\\test\\dog\\0112.png'}, {'Pic': 'cifar10png\\test\\dog\\0674.png'}, {'Pic': 'cifar10png\\test\\dog\\0884.png'}, {'Pic': 'cifar10png\\test\\dog\\0648.png'}, {'Pic': 'cifar10png\\test\\dog\\0890.png'}, {'Pic': 'cifar10png\\test\\dog\\0489.png'}, {'Pic': 'cifar10png\\test\\dog\\0304.png'}, {'Pic': 'cifar10png\\test\\dog\\0462.png'}, {'Pic': 'cifar10png\\test\\dog\\0476.png'}, {'Pic': 'cifar10png\\test\\dog\\0310.png'}, {'Pic': 'cifar10png\\test\\dog\\0338.png'}, {'Pic': 'cifar10png\\test\\dog\\0339.png'}, {'Pic': 'cifar10png\\test\\dog\\0477.png'}, {'Pic': 'cifar10png\\test\\dog\\0311.png'}, {'Pic': 'cifar10png\\test\\dog\\0305.png'}, {'Pic': 'cifar10png\\test\\dog\\0463.png'}, {'Pic': 'cifar10png\\test\\dog\\0488.png'}, {'Pic': 'cifar10png\\test\\dog\\0891.png'}, {'Pic': 'cifar10png\\test\\dog\\0649.png'}, {'Pic': 'cifar10png\\test\\dog\\0885.png'}, {'Pic': 'cifar10png\\test\\dog\\0113.png'}, {'Pic': 'cifar10png\\test\\dog\\0675.png'}, {'Pic': 'cifar10png\\test\\dog\\0661.png'}, {'Pic': 'cifar10png\\test\\dog\\0107.png'}, {'Pic': 'cifar10png\\test\\dog\\0852.png'}, {'Pic': 'cifar10png\\test\\dog\\0846.png'}, {'Pic': 'cifar10png\\test\\dog\\0729.png'}, {'Pic': 'cifar10png\\test\\dog\\0067.png'}, {'Pic': 'cifar10png\\test\\dog\\0701.png'}, {'Pic': 'cifar10png\\test\\dog\\0715.png'}, {'Pic': 'cifar10png\\test\\dog\\0073.png'}, {'Pic': 'cifar10png\\test\\dog\\0098.png'}, {'Pic': 'cifar10png\\test\\dog\\0926.png'}, {'Pic': 'cifar10png\\test\\dog\\0932.png'}, {'Pic': 'cifar10png\\test\\dog\\0259.png'}, {'Pic': 'cifar10png\\test\\dog\\0503.png'}, {'Pic': 'cifar10png\\test\\dog\\0265.png'}, {'Pic': 'cifar10png\\test\\dog\\0271.png'}, {'Pic': 'cifar10png\\test\\dog\\0517.png'}, {'Pic': 'cifar10png\\test\\dog\\0249.png'}, {'Pic': 'cifar10png\\test\\dog\\0513.png'}, {'Pic': 'cifar10png\\test\\dog\\0275.png'}, {'Pic': 'cifar10png\\test\\dog\\0261.png'}, {'Pic': 'cifar10png\\test\\dog\\0507.png'}, {'Pic': 'cifar10png\\test\\dog\\0088.png'}, {'Pic': 'cifar10png\\test\\dog\\0936.png'}, {'Pic': 'cifar10png\\test\\dog\\0922.png'}, {'Pic': 'cifar10png\\test\\dog\\0739.png'}, {'Pic': 'cifar10png\\test\\dog\\0077.png'}, {'Pic': 'cifar10png\\test\\dog\\0711.png'}, {'Pic': 'cifar10png\\test\\dog\\0705.png'}, {'Pic': 'cifar10png\\test\\dog\\0063.png'}, {'Pic': 'cifar10png\\test\\dog\\0842.png'}, {'Pic': 'cifar10png\\test\\dog\\0856.png'}, {'Pic': 'cifar10png\\test\\dog\\0659.png'}, {'Pic': 'cifar10png\\test\\dog\\0881.png'}, {'Pic': 'cifar10png\\test\\dog\\0895.png'}, {'Pic': 'cifar10png\\test\\dog\\0103.png'}, {'Pic': 'cifar10png\\test\\dog\\0665.png'}, {'Pic': 'cifar10png\\test\\dog\\0671.png'}, {'Pic': 'cifar10png\\test\\dog\\0117.png'}, {'Pic': 'cifar10png\\test\\dog\\0498.png'}, {'Pic': 'cifar10png\\test\\dog\\0329.png'}, {'Pic': 'cifar10png\\test\\dog\\0467.png'}, {'Pic': 'cifar10png\\test\\dog\\0301.png'}, {'Pic': 'cifar10png\\test\\dog\\0315.png'}, {'Pic': 'cifar10png\\test\\dog\\0473.png'}, {'Pic': 'cifar10png\\test\\dog\\0314.png'}, {'Pic': 'cifar10png\\test\\dog\\0472.png'}, {'Pic': 'cifar10png\\test\\dog\\0466.png'}, {'Pic': 'cifar10png\\test\\dog\\0300.png'}, {'Pic': 'cifar10png\\test\\dog\\0328.png'}, {'Pic': 'cifar10png\\test\\dog\\0499.png'}, {'Pic': 'cifar10png\\test\\dog\\0670.png'}, {'Pic': 'cifar10png\\test\\dog\\0116.png'}, {'Pic': 'cifar10png\\test\\dog\\0102.png'}, {'Pic': 'cifar10png\\test\\dog\\0664.png'}, {'Pic': 'cifar10png\\test\\dog\\0894.png'}, {'Pic': 'cifar10png\\test\\dog\\0880.png'}, {'Pic': 'cifar10png\\test\\dog\\0658.png'}, {'Pic': 'cifar10png\\test\\dog\\0857.png'}, {'Pic': 'cifar10png\\test\\dog\\0843.png'}, {'Pic': 'cifar10png\\test\\dog\\0704.png'}, {'Pic': 'cifar10png\\test\\dog\\0062.png'}, {'Pic': 'cifar10png\\test\\dog\\0076.png'}, {'Pic': 'cifar10png\\test\\dog\\0710.png'}, {'Pic': 'cifar10png\\test\\dog\\0738.png'}, {'Pic': 'cifar10png\\test\\dog\\0923.png'}, {'Pic': 'cifar10png\\test\\dog\\0089.png'}, {'Pic': 'cifar10png\\test\\dog\\0937.png'}, {'Pic': 'cifar10png\\test\\dog\\0260.png'}, {'Pic': 'cifar10png\\test\\dog\\0506.png'}, {'Pic': 'cifar10png\\test\\dog\\0512.png'}, {'Pic': 'cifar10png\\test\\dog\\0274.png'}, {'Pic': 'cifar10png\\test\\dog\\0248.png'}, {'Pic': 'cifar10png\\test\\dog\\0289.png'}, {'Pic': 'cifar10png\\test\\dog\\0538.png'}, {'Pic': 'cifar10png\\test\\dog\\0504.png'}, {'Pic': 'cifar10png\\test\\dog\\0262.png'}, {'Pic': 'cifar10png\\test\\dog\\0276.png'}, {'Pic': 'cifar10png\\test\\dog\\0510.png'}, {'Pic': 'cifar10png\\test\\dog\\0921.png'}, {'Pic': 'cifar10png\\test\\dog\\0935.png'}, {'Pic': 'cifar10png\\test\\dog\\0909.png'}, {'Pic': 'cifar10png\\test\\dog\\0048.png'}, {'Pic': 'cifar10png\\test\\dog\\0060.png'}, {'Pic': 'cifar10png\\test\\dog\\0706.png'}, {'Pic': 'cifar10png\\test\\dog\\0712.png'}, {'Pic': 'cifar10png\\test\\dog\\0074.png'}, {'Pic': 'cifar10png\\test\\dog\\0855.png'}, {'Pic': 'cifar10png\\test\\dog\\0841.png'}, {'Pic': 'cifar10png\\test\\dog\\0699.png'}, {'Pic': 'cifar10png\\test\\dog\\0869.png'}, {'Pic': 'cifar10png\\test\\dog\\0128.png'}, {'Pic': 'cifar10png\\test\\dog\\0896.png'}, {'Pic': 'cifar10png\\test\\dog\\0882.png'}, {'Pic': 'cifar10png\\test\\dog\\0114.png'}, {'Pic': 'cifar10png\\test\\dog\\0672.png'}, {'Pic': 'cifar10png\\test\\dog\\0666.png'}, {'Pic': 'cifar10png\\test\\dog\\0100.png'}, {'Pic': 'cifar10png\\test\\dog\\0458.png'}, {'Pic': 'cifar10png\\test\\dog\\0470.png'}, {'Pic': 'cifar10png\\test\\dog\\0316.png'}, {'Pic': 'cifar10png\\test\\dog\\0302.png'}, {'Pic': 'cifar10png\\test\\dog\\0464.png'}, {'Pic': 'cifar10png\\test\\dog\\0303.png'}, {'Pic': 'cifar10png\\test\\dog\\0465.png'}, {'Pic': 'cifar10png\\test\\dog\\0471.png'}, {'Pic': 'cifar10png\\test\\dog\\0317.png'}, {'Pic': 'cifar10png\\test\\dog\\0459.png'}, {'Pic': 'cifar10png\\test\\dog\\0667.png'}, {'Pic': 'cifar10png\\test\\dog\\0101.png'}, {'Pic': 'cifar10png\\test\\dog\\0115.png'}, {'Pic': 'cifar10png\\test\\dog\\0673.png'}, {'Pic': 'cifar10png\\test\\dog\\0883.png'}, {'Pic': 'cifar10png\\test\\dog\\0129.png'}, {'Pic': 'cifar10png\\test\\dog\\0897.png'}, {'Pic': 'cifar10png\\test\\dog\\0868.png'}, {'Pic': 'cifar10png\\test\\dog\\0698.png'}, {'Pic': 'cifar10png\\test\\dog\\0840.png'}, {'Pic': 'cifar10png\\test\\dog\\0854.png'}, {'Pic': 'cifar10png\\test\\dog\\0713.png'}, {'Pic': 'cifar10png\\test\\dog\\0075.png'}, {'Pic': 'cifar10png\\test\\dog\\0061.png'}, {'Pic': 'cifar10png\\test\\dog\\0707.png'}, {'Pic': 'cifar10png\\test\\dog\\0049.png'}, {'Pic': 'cifar10png\\test\\dog\\0908.png'}, {'Pic': 'cifar10png\\test\\dog\\0934.png'}, {'Pic': 'cifar10png\\test\\dog\\0920.png'}, {'Pic': 'cifar10png\\test\\dog\\0277.png'}, {'Pic': 'cifar10png\\test\\dog\\0511.png'}, {'Pic': 'cifar10png\\test\\dog\\0505.png'}, {'Pic': 'cifar10png\\test\\dog\\0263.png'}, {'Pic': 'cifar10png\\test\\dog\\0539.png'}, {'Pic': 'cifar10png\\test\\dog\\0288.png'}, {'Pic': 'cifar10png\\test\\dog\\0589.png'}, {'Pic': 'cifar10png\\test\\dog\\0562.png'}, {'Pic': 'cifar10png\\test\\dog\\0204.png'}, {'Pic': 'cifar10png\\test\\dog\\0210.png'}, {'Pic': 'cifar10png\\test\\dog\\0576.png'}, {'Pic': 'cifar10png\\test\\dog\\0238.png'}, {'Pic': 'cifar10png\\test\\dog\\0947.png'}, {'Pic': 'cifar10png\\test\\dog\\0953.png'}, {'Pic': 'cifar10png\\test\\dog\\0006.png'}, {'Pic': 'cifar10png\\test\\dog\\0760.png'}, {'Pic': 'cifar10png\\test\\dog\\0774.png'}, {'Pic': 'cifar10png\\test\\dog\\0012.png'}, {'Pic': 'cifar10png\\test\\dog\\0984.png'}, {'Pic': 'cifar10png\\test\\dog\\0990.png'}, {'Pic': 'cifar10png\\test\\dog\\0748.png'}, {'Pic': 'cifar10png\\test\\dog\\0833.png'}, {'Pic': 'cifar10png\\test\\dog\\0827.png'}, {'Pic': 'cifar10png\\test\\dog\\0199.png'}, {'Pic': 'cifar10png\\test\\dog\\0172.png'}, {'Pic': 'cifar10png\\test\\dog\\0614.png'}, {'Pic': 'cifar10png\\test\\dog\\0600.png'}, {'Pic': 'cifar10png\\test\\dog\\0166.png'}, {'Pic': 'cifar10png\\test\\dog\\0628.png'}, {'Pic': 'cifar10png\\test\\dog\\0416.png'}, {'Pic': 'cifar10png\\test\\dog\\0370.png'}, {'Pic': 'cifar10png\\test\\dog\\0364.png'}, {'Pic': 'cifar10png\\test\\dog\\0402.png'}, {'Pic': 'cifar10png\\test\\dog\\0358.png'}, {'Pic': 'cifar10png\\test\\dog\\0359.png'}, {'Pic': 'cifar10png\\test\\dog\\0365.png'}, {'Pic': 'cifar10png\\test\\dog\\0403.png'}, {'Pic': 'cifar10png\\test\\dog\\0417.png'}, {'Pic': 'cifar10png\\test\\dog\\0371.png'}, {'Pic': 'cifar10png\\test\\dog\\0629.png'}, {'Pic': 'cifar10png\\test\\dog\\0601.png'}, {'Pic': 'cifar10png\\test\\dog\\0167.png'}, {'Pic': 'cifar10png\\test\\dog\\0173.png'}, {'Pic': 'cifar10png\\test\\dog\\0615.png'}, {'Pic': 'cifar10png\\test\\dog\\0826.png'}, {'Pic': 'cifar10png\\test\\dog\\0198.png'}, {'Pic': 'cifar10png\\test\\dog\\0832.png'}, {'Pic': 'cifar10png\\test\\dog\\0749.png'}, {'Pic': 'cifar10png\\test\\dog\\0991.png'}, {'Pic': 'cifar10png\\test\\dog\\0985.png'}, {'Pic': 'cifar10png\\test\\dog\\0775.png'}, {'Pic': 'cifar10png\\test\\dog\\0013.png'}, {'Pic': 'cifar10png\\test\\dog\\0007.png'}, {'Pic': 'cifar10png\\test\\dog\\0761.png'}, {'Pic': 'cifar10png\\test\\dog\\0952.png'}, {'Pic': 'cifar10png\\test\\dog\\0946.png'}, {'Pic': 'cifar10png\\test\\dog\\0239.png'}, {'Pic': 'cifar10png\\test\\dog\\0211.png'}, {'Pic': 'cifar10png\\test\\dog\\0577.png'}, {'Pic': 'cifar10png\\test\\dog\\0563.png'}, {'Pic': 'cifar10png\\test\\dog\\0205.png'}, {'Pic': 'cifar10png\\test\\dog\\0588.png'}, {'Pic': 'cifar10png\\test\\dog\\0575.png'}, {'Pic': 'cifar10png\\test\\dog\\0213.png'}, {'Pic': 'cifar10png\\test\\dog\\0207.png'}, {'Pic': 'cifar10png\\test\\dog\\0561.png'}, {'Pic': 'cifar10png\\test\\dog\\0549.png'}, {'Pic': 'cifar10png\\test\\dog\\0978.png'}, {'Pic': 'cifar10png\\test\\dog\\0788.png'}, {'Pic': 'cifar10png\\test\\dog\\0950.png'}, {'Pic': 'cifar10png\\test\\dog\\0944.png'}, {'Pic': 'cifar10png\\test\\dog\\0011.png'}, {'Pic': 'cifar10png\\test\\dog\\0777.png'}, {'Pic': 'cifar10png\\test\\dog\\0763.png'}, {'Pic': 'cifar10png\\test\\dog\\0005.png'}, {'Pic': 'cifar10png\\test\\dog\\0993.png'}, {'Pic': 'cifar10png\\test\\dog\\0987.png'}, {'Pic': 'cifar10png\\test\\dog\\0039.png'}, {'Pic': 'cifar10png\\test\\dog\\0818.png'}, {'Pic': 'cifar10png\\test\\dog\\0824.png'}, {'Pic': 'cifar10png\\test\\dog\\0830.png'}, {'Pic': 'cifar10png\\test\\dog\\0165.png'}, {'Pic': 'cifar10png\\test\\dog\\0603.png'}, {'Pic': 'cifar10png\\test\\dog\\0617.png'}, {'Pic': 'cifar10png\\test\\dog\\0171.png'}, {'Pic': 'cifar10png\\test\\dog\\0159.png'}, {'Pic': 'cifar10png\\test\\dog\\0398.png'}, {'Pic': 'cifar10png\\test\\dog\\0401.png'}, {'Pic': 'cifar10png\\test\\dog\\0367.png'}, {'Pic': 'cifar10png\\test\\dog\\0373.png'}, {'Pic': 'cifar10png\\test\\dog\\0415.png'}, {'Pic': 'cifar10png\\test\\dog\\0429.png'}, {'Pic': 'cifar10png\\test\\dog\\0428.png'}, {'Pic': 'cifar10png\\test\\dog\\0372.png'}, {'Pic': 'cifar10png\\test\\dog\\0414.png'}, {'Pic': 'cifar10png\\test\\dog\\0400.png'}, {'Pic': 'cifar10png\\test\\dog\\0366.png'}, {'Pic': 'cifar10png\\test\\dog\\0399.png'}, {'Pic': 'cifar10png\\test\\dog\\0158.png'}, {'Pic': 'cifar10png\\test\\dog\\0616.png'}, {'Pic': 'cifar10png\\test\\dog\\0170.png'}, {'Pic': 'cifar10png\\test\\dog\\0164.png'}, {'Pic': 'cifar10png\\test\\dog\\0602.png'}, {'Pic': 'cifar10png\\test\\dog\\0831.png'}, {'Pic': 'cifar10png\\test\\dog\\0825.png'}, {'Pic': 'cifar10png\\test\\dog\\0819.png'}, {'Pic': 'cifar10png\\test\\dog\\0986.png'}, {'Pic': 'cifar10png\\test\\dog\\0038.png'}, {'Pic': 'cifar10png\\test\\dog\\0992.png'}, {'Pic': 'cifar10png\\test\\dog\\0762.png'}, {'Pic': 'cifar10png\\test\\dog\\0004.png'}, {'Pic': 'cifar10png\\test\\dog\\0010.png'}, {'Pic': 'cifar10png\\test\\dog\\0776.png'}, {'Pic': 'cifar10png\\test\\dog\\0945.png'}, {'Pic': 'cifar10png\\test\\dog\\0951.png'}, {'Pic': 'cifar10png\\test\\dog\\0789.png'}, {'Pic': 'cifar10png\\test\\dog\\0979.png'}, {'Pic': 'cifar10png\\test\\dog\\0548.png'}, {'Pic': 'cifar10png\\test\\dog\\0206.png'}, {'Pic': 'cifar10png\\test\\dog\\0560.png'}, {'Pic': 'cifar10png\\test\\dog\\0574.png'}, {'Pic': 'cifar10png\\test\\dog\\0212.png'}, {'Pic': 'cifar10png\\test\\dog\\0558.png'}, {'Pic': 'cifar10png\\test\\dog\\0216.png'}, {'Pic': 'cifar10png\\test\\dog\\0570.png'}, {'Pic': 'cifar10png\\test\\dog\\0564.png'}, {'Pic': 'cifar10png\\test\\dog\\0202.png'}, {'Pic': 'cifar10png\\test\\dog\\0955.png'}, {'Pic': 'cifar10png\\test\\dog\\0799.png'}, {'Pic': 'cifar10png\\test\\dog\\0941.png'}, {'Pic': 'cifar10png\\test\\dog\\0969.png'}, {'Pic': 'cifar10png\\test\\dog\\0996.png'}, {'Pic': 'cifar10png\\test\\dog\\0028.png'}, {'Pic': 'cifar10png\\test\\dog\\0982.png'}, {'Pic': 'cifar10png\\test\\dog\\0772.png'}, {'Pic': 'cifar10png\\test\\dog\\0014.png'}, {'Pic': 'cifar10png\\test\\dog\\0766.png'}, {'Pic': 'cifar10png\\test\\dog\\0821.png'}, {'Pic': 'cifar10png\\test\\dog\\0835.png'}, {'Pic': 'cifar10png\\test\\dog\\0809.png'}, {'Pic': 'cifar10png\\test\\dog\\0148.png'}, {'Pic': 'cifar10png\\test\\dog\\0606.png'}, {'Pic': 'cifar10png\\test\\dog\\0160.png'}, {'Pic': 'cifar10png\\test\\dog\\0174.png'}, {'Pic': 'cifar10png\\test\\dog\\0612.png'}, {'Pic': 'cifar10png\\test\\dog\\0389.png'}, {'Pic': 'cifar10png\\test\\dog\\0438.png'}, {'Pic': 'cifar10png\\test\\dog\\0362.png'}, {'Pic': 'cifar10png\\test\\dog\\0404.png'}, {'Pic': 'cifar10png\\test\\dog\\0410.png'}, {'Pic': 'cifar10png\\test\\dog\\0376.png'}, {'Pic': 'cifar10png\\test\\dog\\0411.png'}, {'Pic': 'cifar10png\\test\\dog\\0377.png'}, {'Pic': 'cifar10png\\test\\dog\\0363.png'}, {'Pic': 'cifar10png\\test\\dog\\0405.png'}, {'Pic': 'cifar10png\\test\\dog\\0439.png'}, {'Pic': 'cifar10png\\test\\dog\\0388.png'}, {'Pic': 'cifar10png\\test\\dog\\0175.png'}, {'Pic': 'cifar10png\\test\\dog\\0613.png'}, {'Pic': 'cifar10png\\test\\dog\\0607.png'}, {'Pic': 'cifar10png\\test\\dog\\0161.png'}, {'Pic': 'cifar10png\\test\\dog\\0149.png'}, {'Pic': 'cifar10png\\test\\dog\\0808.png'}, {'Pic': 'cifar10png\\test\\dog\\0834.png'}, {'Pic': 'cifar10png\\test\\dog\\0820.png'}, {'Pic': 'cifar10png\\test\\dog\\0001.png'}, {'Pic': 'cifar10png\\test\\dog\\0767.png'}, {'Pic': 'cifar10png\\test\\dog\\0773.png'}, {'Pic': 'cifar10png\\test\\dog\\0015.png'}, {'Pic': 'cifar10png\\test\\dog\\0983.png'}, {'Pic': 'cifar10png\\test\\dog\\0997.png'}, {'Pic': 'cifar10png\\test\\dog\\0029.png'}, {'Pic': 'cifar10png\\test\\dog\\0968.png'}, {'Pic': 'cifar10png\\test\\dog\\0940.png'}, {'Pic': 'cifar10png\\test\\dog\\0798.png'}, {'Pic': 'cifar10png\\test\\dog\\0954.png'}, {'Pic': 'cifar10png\\test\\dog\\0565.png'}, {'Pic': 'cifar10png\\test\\dog\\0203.png'}, {'Pic': 'cifar10png\\test\\dog\\0217.png'}, {'Pic': 'cifar10png\\test\\dog\\0571.png'}, {'Pic': 'cifar10png\\test\\dog\\0559.png'}, {'Pic': 'cifar10png\\test\\dog\\0598.png'}, {'Pic': 'cifar10png\\test\\dog\\0229.png'}, {'Pic': 'cifar10png\\test\\dog\\0201.png'}, {'Pic': 'cifar10png\\test\\dog\\0567.png'}, {'Pic': 'cifar10png\\test\\dog\\0573.png'}, {'Pic': 'cifar10png\\test\\dog\\0215.png'}, {'Pic': 'cifar10png\\test\\dog\\0942.png'}, {'Pic': 'cifar10png\\test\\dog\\0956.png'}, {'Pic': 'cifar10png\\test\\dog\\0981.png'}, {'Pic': 'cifar10png\\test\\dog\\0759.png'}, {'Pic': 'cifar10png\\test\\dog\\0995.png'}, {'Pic': 'cifar10png\\test\\dog\\0765.png'}, {'Pic': 'cifar10png\\test\\dog\\0003.png'}, {'Pic': 'cifar10png\\test\\dog\\0017.png'}, {'Pic': 'cifar10png\\test\\dog\\0771.png'}, {'Pic': 'cifar10png\\test\\dog\\0836.png'}, {'Pic': 'cifar10png\\test\\dog\\0188.png'}, {'Pic': 'cifar10png\\test\\dog\\0822.png'}, {'Pic': 'cifar10png\\test\\dog\\0639.png'}, {'Pic': 'cifar10png\\test\\dog\\0611.png'}, {'Pic': 'cifar10png\\test\\dog\\0177.png'}, {'Pic': 'cifar10png\\test\\dog\\0163.png'}, {'Pic': 'cifar10png\\test\\dog\\0605.png'}, {'Pic': 'cifar10png\\test\\dog\\0349.png'}, {'Pic': 'cifar10png\\test\\dog\\0375.png'}, {'Pic': 'cifar10png\\test\\dog\\0413.png'}, {'Pic': 'cifar10png\\test\\dog\\0407.png'}, {'Pic': 'cifar10png\\test\\dog\\0361.png'}, {'Pic': 'cifar10png\\test\\dog\\0406.png'}, {'Pic': 'cifar10png\\test\\dog\\0360.png'}, {'Pic': 'cifar10png\\test\\dog\\0374.png'}, {'Pic': 'cifar10png\\test\\dog\\0412.png'}, {'Pic': 'cifar10png\\test\\dog\\0348.png'}, {'Pic': 'cifar10png\\test\\dog\\0162.png'}, {'Pic': 'cifar10png\\test\\dog\\0604.png'}, {'Pic': 'cifar10png\\test\\dog\\0610.png'}, {'Pic': 'cifar10png\\test\\dog\\0176.png'}, {'Pic': 'cifar10png\\test\\dog\\0638.png'}, {'Pic': 'cifar10png\\test\\dog\\0823.png'}, {'Pic': 'cifar10png\\test\\dog\\0837.png'}, {'Pic': 'cifar10png\\test\\dog\\0189.png'}, {'Pic': 'cifar10png\\test\\dog\\0016.png'}, {'Pic': 'cifar10png\\test\\dog\\0770.png'}, {'Pic': 'cifar10png\\test\\dog\\0764.png'}, {'Pic': 'cifar10png\\test\\dog\\0002.png'}, {'Pic': 'cifar10png\\test\\dog\\0994.png'}, {'Pic': 'cifar10png\\test\\dog\\0758.png'}, {'Pic': 'cifar10png\\test\\dog\\0980.png'}, {'Pic': 'cifar10png\\test\\dog\\0957.png'}, {'Pic': 'cifar10png\\test\\dog\\0943.png'}, {'Pic': 'cifar10png\\test\\dog\\0572.png'}, {'Pic': 'cifar10png\\test\\dog\\0214.png'}, {'Pic': 'cifar10png\\test\\dog\\0200.png'}, {'Pic': 'cifar10png\\test\\dog\\0566.png'}, {'Pic': 'cifar10png\\test\\dog\\0228.png'}, {'Pic': 'cifar10png\\test\\dog\\0599.png'}, {'Pic': 'cifar10png\\test\\dog\\0580.png'}, {'Pic': 'cifar10png\\test\\dog\\0594.png'}, {'Pic': 'cifar10png\\test\\dog\\0543.png'}, {'Pic': 'cifar10png\\test\\dog\\0225.png'}, {'Pic': 'cifar10png\\test\\dog\\0231.png'}, {'Pic': 'cifar10png\\test\\dog\\0557.png'}, {'Pic': 'cifar10png\\test\\dog\\0219.png'}, {'Pic': 'cifar10png\\test\\dog\\0782.png'}, {'Pic': 'cifar10png\\test\\dog\\0796.png'}, {'Pic': 'cifar10png\\test\\dog\\0966.png'}, {'Pic': 'cifar10png\\test\\dog\\0972.png'}, {'Pic': 'cifar10png\\test\\dog\\0027.png'}, {'Pic': 'cifar10png\\test\\dog\\0999.png'}, {'Pic': 'cifar10png\\test\\dog\\0741.png'}, {'Pic': 'cifar10png\\test\\dog\\0755.png'}, {'Pic': 'cifar10png\\test\\dog\\0033.png'}, {'Pic': 'cifar10png\\test\\dog\\0769.png'}, {'Pic': 'cifar10png\\test\\dog\\0190.png'}, {'Pic': 'cifar10png\\test\\dog\\0184.png'}, {'Pic': 'cifar10png\\test\\dog\\0812.png'}, {'Pic': 'cifar10png\\test\\dog\\0806.png'}, {'Pic': 'cifar10png\\test\\dog\\0153.png'}, {'Pic': 'cifar10png\\test\\dog\\0635.png'}, {'Pic': 'cifar10png\\test\\dog\\0621.png'}, {'Pic': 'cifar10png\\test\\dog\\0147.png'}, {'Pic': 'cifar10png\\test\\dog\\0609.png'}, {'Pic': 'cifar10png\\test\\dog\\0392.png'}, {'Pic': 'cifar10png\\test\\dog\\0386.png'}, {'Pic': 'cifar10png\\test\\dog\\0437.png'}, {'Pic': 'cifar10png\\test\\dog\\0351.png'}, {'Pic': 'cifar10png\\test\\dog\\0345.png'}, {'Pic': 'cifar10png\\test\\dog\\0423.png'}, {'Pic': 'cifar10png\\test\\dog\\0379.png'}, {'Pic': 'cifar10png\\test\\dog\\0378.png'}, {'Pic': 'cifar10png\\test\\dog\\0344.png'}, {'Pic': 'cifar10png\\test\\dog\\0422.png'}, {'Pic': 'cifar10png\\test\\dog\\0436.png'}, {'Pic': 'cifar10png\\test\\dog\\0350.png'}, {'Pic': 'cifar10png\\test\\dog\\0387.png'}, {'Pic': 'cifar10png\\test\\dog\\0393.png'}, {'Pic': 'cifar10png\\test\\dog\\0608.png'}, {'Pic': 'cifar10png\\test\\dog\\0620.png'}, {'Pic': 'cifar10png\\test\\dog\\0146.png'}, {'Pic': 'cifar10png\\test\\dog\\0152.png'}, {'Pic': 'cifar10png\\test\\dog\\0634.png'}, {'Pic': 'cifar10png\\test\\dog\\0807.png'}, {'Pic': 'cifar10png\\test\\dog\\0813.png'}, {'Pic': 'cifar10png\\test\\dog\\0185.png'}, {'Pic': 'cifar10png\\test\\dog\\0191.png'}, {'Pic': 'cifar10png\\test\\dog\\0768.png'}, {'Pic': 'cifar10png\\test\\dog\\0754.png'}, {'Pic': 'cifar10png\\test\\dog\\0032.png'}, {'Pic': 'cifar10png\\test\\dog\\0026.png'}, {'Pic': 'cifar10png\\test\\dog\\0740.png'}, {'Pic': 'cifar10png\\test\\dog\\0998.png'}, {'Pic': 'cifar10png\\test\\dog\\0973.png'}, {'Pic': 'cifar10png\\test\\dog\\0967.png'}, {'Pic': 'cifar10png\\test\\dog\\0797.png'}, {'Pic': 'cifar10png\\test\\dog\\0783.png'}, {'Pic': 'cifar10png\\test\\dog\\0218.png'}, {'Pic': 'cifar10png\\test\\dog\\0230.png'}, {'Pic': 'cifar10png\\test\\dog\\0556.png'}, {'Pic': 'cifar10png\\test\\dog\\0542.png'}, {'Pic': 'cifar10png\\test\\dog\\0224.png'}, {'Pic': 'cifar10png\\test\\dog\\0595.png'}, {'Pic': 'cifar10png\\test\\dog\\0581.png'}, {'Pic': 'cifar10png\\test\\dog\\0597.png'}, {'Pic': 'cifar10png\\test\\dog\\0583.png'}, {'Pic': 'cifar10png\\test\\dog\\0554.png'}, {'Pic': 'cifar10png\\test\\dog\\0232.png'}, {'Pic': 'cifar10png\\test\\dog\\0226.png'}, {'Pic': 'cifar10png\\test\\dog\\0540.png'}, {'Pic': 'cifar10png\\test\\dog\\0568.png'}, {'Pic': 'cifar10png\\test\\dog\\0795.png'}, {'Pic': 'cifar10png\\test\\dog\\0781.png'}, {'Pic': 'cifar10png\\test\\dog\\0959.png'}, {'Pic': 'cifar10png\\test\\dog\\0971.png'}, {'Pic': 'cifar10png\\test\\dog\\0965.png'}, {'Pic': 'cifar10png\\test\\dog\\0030.png'}, {'Pic': 'cifar10png\\test\\dog\\0756.png'}, {'Pic': 'cifar10png\\test\\dog\\0742.png'}, {'Pic': 'cifar10png\\test\\dog\\0024.png'}, {'Pic': 'cifar10png\\test\\dog\\0018.png'}, {'Pic': 'cifar10png\\test\\dog\\0187.png'}, {'Pic': 'cifar10png\\test\\dog\\0839.png'}, {'Pic': 'cifar10png\\test\\dog\\0193.png'}, {'Pic': 'cifar10png\\test\\dog\\0805.png'}, {'Pic': 'cifar10png\\test\\dog\\0811.png'}, {'Pic': 'cifar10png\\test\\dog\\0144.png'}, {'Pic': 'cifar10png\\test\\dog\\0622.png'}, {'Pic': 'cifar10png\\test\\dog\\0636.png'}, {'Pic': 'cifar10png\\test\\dog\\0150.png'}, {'Pic': 'cifar10png\\test\\dog\\0178.png'}, {'Pic': 'cifar10png\\test\\dog\\0385.png'}, {'Pic': 'cifar10png\\test\\dog\\0391.png'}, {'Pic': 'cifar10png\\test\\dog\\0420.png'}, {'Pic': 'cifar10png\\test\\dog\\0346.png'}, {'Pic': 'cifar10png\\test\\dog\\0352.png'}, {'Pic': 'cifar10png\\test\\dog\\0434.png'}, {'Pic': 'cifar10png\\test\\dog\\0408.png'}, {'Pic': 'cifar10png\\test\\dog\\0409.png'}, {'Pic': 'cifar10png\\test\\dog\\0353.png'}, {'Pic': 'cifar10png\\test\\dog\\0435.png'}, {'Pic': 'cifar10png\\test\\dog\\0421.png'}, {'Pic': 'cifar10png\\test\\dog\\0347.png'}, {'Pic': 'cifar10png\\test\\dog\\0390.png'}, {'Pic': 'cifar10png\\test\\dog\\0384.png'}, {'Pic': 'cifar10png\\test\\dog\\0179.png'}, {'Pic': 'cifar10png\\test\\dog\\0637.png'}, {'Pic': 'cifar10png\\test\\dog\\0151.png'}, {'Pic': 'cifar10png\\test\\dog\\0145.png'}, {'Pic': 'cifar10png\\test\\dog\\0623.png'}, {'Pic': 'cifar10png\\test\\dog\\0810.png'}, {'Pic': 'cifar10png\\test\\dog\\0804.png'}, {'Pic': 'cifar10png\\test\\dog\\0192.png'}, {'Pic': 'cifar10png\\test\\dog\\0186.png'}, {'Pic': 'cifar10png\\test\\dog\\0838.png'}, {'Pic': 'cifar10png\\test\\dog\\0019.png'}, {'Pic': 'cifar10png\\test\\dog\\0743.png'}, {'Pic': 'cifar10png\\test\\dog\\0025.png'}, {'Pic': 'cifar10png\\test\\dog\\0031.png'}, {'Pic': 'cifar10png\\test\\dog\\0757.png'}, {'Pic': 'cifar10png\\test\\dog\\0964.png'}, {'Pic': 'cifar10png\\test\\dog\\0970.png'}, {'Pic': 'cifar10png\\test\\dog\\0958.png'}, {'Pic': 'cifar10png\\test\\dog\\0780.png'}, {'Pic': 'cifar10png\\test\\dog\\0794.png'}, {'Pic': 'cifar10png\\test\\dog\\0569.png'}, {'Pic': 'cifar10png\\test\\dog\\0227.png'}, {'Pic': 'cifar10png\\test\\dog\\0541.png'}, {'Pic': 'cifar10png\\test\\dog\\0555.png'}, {'Pic': 'cifar10png\\test\\dog\\0233.png'}, {'Pic': 'cifar10png\\test\\dog\\0582.png'}, {'Pic': 'cifar10png\\test\\dog\\0596.png'}, {'Pic': 'cifar10png\\test\\dog\\0592.png'}, {'Pic': 'cifar10png\\test\\dog\\0586.png'}, {'Pic': 'cifar10png\\test\\dog\\0579.png'}, {'Pic': 'cifar10png\\test\\dog\\0237.png'}, {'Pic': 'cifar10png\\test\\dog\\0551.png'}, {'Pic': 'cifar10png\\test\\dog\\0545.png'}, {'Pic': 'cifar10png\\test\\dog\\0223.png'}, {'Pic': 'cifar10png\\test\\dog\\0974.png'}, {'Pic': 'cifar10png\\test\\dog\\0960.png'}, {'Pic': 'cifar10png\\test\\dog\\0790.png'}, {'Pic': 'cifar10png\\test\\dog\\0948.png'}, {'Pic': 'cifar10png\\test\\dog\\0784.png'}, {'Pic': 'cifar10png\\test\\dog\\0009.png'}, {'Pic': 'cifar10png\\test\\dog\\0753.png'}, {'Pic': 'cifar10png\\test\\dog\\0035.png'}, {'Pic': 'cifar10png\\test\\dog\\0021.png'}, {'Pic': 'cifar10png\\test\\dog\\0747.png'}, {'Pic': 'cifar10png\\test\\dog\\0800.png'}, {'Pic': 'cifar10png\\test\\dog\\0814.png'}, {'Pic': 'cifar10png\\test\\dog\\0182.png'}, {'Pic': 'cifar10png\\test\\dog\\0196.png'}, {'Pic': 'cifar10png\\test\\dog\\0828.png'}, {'Pic': 'cifar10png\\test\\dog\\0169.png'}, {'Pic': 'cifar10png\\test\\dog\\0627.png'}, {'Pic': 'cifar10png\\test\\dog\\0141.png'}, {'Pic': 'cifar10png\\test\\dog\\0155.png'}, {'Pic': 'cifar10png\\test\\dog\\0633.png'}, {'Pic': 'cifar10png\\test\\dog\\0380.png'}, {'Pic': 'cifar10png\\test\\dog\\0394.png'}, {'Pic': 'cifar10png\\test\\dog\\0419.png'}, {'Pic': 'cifar10png\\test\\dog\\0343.png'}, {'Pic': 'cifar10png\\test\\dog\\0425.png'}, {'Pic': 'cifar10png\\test\\dog\\0431.png'}, {'Pic': 'cifar10png\\test\\dog\\0357.png'}, {'Pic': 'cifar10png\\test\\dog\\0430.png'}, {'Pic': 'cifar10png\\test\\dog\\0356.png'}, {'Pic': 'cifar10png\\test\\dog\\0342.png'}, {'Pic': 'cifar10png\\test\\dog\\0424.png'}, {'Pic': 'cifar10png\\test\\dog\\0418.png'}, {'Pic': 'cifar10png\\test\\dog\\0395.png'}, {'Pic': 'cifar10png\\test\\dog\\0381.png'}, {'Pic': 'cifar10png\\test\\dog\\0154.png'}, {'Pic': 'cifar10png\\test\\dog\\0632.png'}, {'Pic': 'cifar10png\\test\\dog\\0626.png'}, {'Pic': 'cifar10png\\test\\dog\\0140.png'}, {'Pic': 'cifar10png\\test\\dog\\0168.png'}, {'Pic': 'cifar10png\\test\\dog\\0197.png'}, {'Pic': 'cifar10png\\test\\dog\\0829.png'}, {'Pic': 'cifar10png\\test\\dog\\0183.png'}, {'Pic': 'cifar10png\\test\\dog\\0815.png'}, {'Pic': 'cifar10png\\test\\dog\\0801.png'}, {'Pic': 'cifar10png\\test\\dog\\0020.png'}, {'Pic': 'cifar10png\\test\\dog\\0746.png'}, {'Pic': 'cifar10png\\test\\dog\\0752.png'}, {'Pic': 'cifar10png\\test\\dog\\0034.png'}, {'Pic': 'cifar10png\\test\\dog\\0008.png'}, {'Pic': 'cifar10png\\test\\dog\\0785.png'}, {'Pic': 'cifar10png\\test\\dog\\0949.png'}, {'Pic': 'cifar10png\\test\\dog\\0791.png'}, {'Pic': 'cifar10png\\test\\dog\\0961.png'}, {'Pic': 'cifar10png\\test\\dog\\0975.png'}, {'Pic': 'cifar10png\\test\\dog\\0544.png'}, {'Pic': 'cifar10png\\test\\dog\\0222.png'}, {'Pic': 'cifar10png\\test\\dog\\0236.png'}, {'Pic': 'cifar10png\\test\\dog\\0550.png'}, {'Pic': 'cifar10png\\test\\dog\\0578.png'}, {'Pic': 'cifar10png\\test\\dog\\0587.png'}, {'Pic': 'cifar10png\\test\\dog\\0593.png'}, {'Pic': 'cifar10png\\test\\dog\\0585.png'}, {'Pic': 'cifar10png\\test\\dog\\0591.png'}, {'Pic': 'cifar10png\\test\\dog\\0208.png'}, {'Pic': 'cifar10png\\test\\dog\\0220.png'}, {'Pic': 'cifar10png\\test\\dog\\0546.png'}, {'Pic': 'cifar10png\\test\\dog\\0552.png'}, {'Pic': 'cifar10png\\test\\dog\\0234.png'}, {'Pic': 'cifar10png\\test\\dog\\0963.png'}, {'Pic': 'cifar10png\\test\\dog\\0977.png'}, {'Pic': 'cifar10png\\test\\dog\\0787.png'}, {'Pic': 'cifar10png\\test\\dog\\0793.png'}, {'Pic': 'cifar10png\\test\\dog\\0778.png'}, {'Pic': 'cifar10png\\test\\dog\\0744.png'}, {'Pic': 'cifar10png\\test\\dog\\0022.png'}, {'Pic': 'cifar10png\\test\\dog\\0036.png'}, {'Pic': 'cifar10png\\test\\dog\\0988.png'}, {'Pic': 'cifar10png\\test\\dog\\0750.png'}, {'Pic': 'cifar10png\\test\\dog\\0817.png'}, {'Pic': 'cifar10png\\test\\dog\\0803.png'}, {'Pic': 'cifar10png\\test\\dog\\0195.png'}, {'Pic': 'cifar10png\\test\\dog\\0181.png'}, {'Pic': 'cifar10png\\test\\dog\\0618.png'}, {'Pic': 'cifar10png\\test\\dog\\0630.png'}, {'Pic': 'cifar10png\\test\\dog\\0156.png'}, {'Pic': 'cifar10png\\test\\dog\\0142.png'}, {'Pic': 'cifar10png\\test\\dog\\0624.png'}, {'Pic': 'cifar10png\\test\\dog\\0397.png'}, {'Pic': 'cifar10png\\test\\dog\\0383.png'}, {'Pic': 'cifar10png\\test\\dog\\0368.png'}, {'Pic': 'cifar10png\\test\\dog\\0354.png'}, {'Pic': 'cifar10png\\test\\dog\\0432.png'}, {'Pic': 'cifar10png\\test\\dog\\0426.png'}, {'Pic': 'cifar10png\\test\\dog\\0340.png'}, {'Pic': 'cifar10png\\test\\dog\\0427.png'}, {'Pic': 'cifar10png\\test\\dog\\0341.png'}, {'Pic': 'cifar10png\\test\\dog\\0355.png'}, {'Pic': 'cifar10png\\test\\dog\\0433.png'}, {'Pic': 'cifar10png\\test\\dog\\0369.png'}, {'Pic': 'cifar10png\\test\\dog\\0382.png'}, {'Pic': 'cifar10png\\test\\dog\\0396.png'}, {'Pic': 'cifar10png\\test\\dog\\0143.png'}, {'Pic': 'cifar10png\\test\\dog\\0625.png'}, {'Pic': 'cifar10png\\test\\dog\\0631.png'}, {'Pic': 'cifar10png\\test\\dog\\0157.png'}, {'Pic': 'cifar10png\\test\\dog\\0619.png'}, {'Pic': 'cifar10png\\test\\dog\\0180.png'}, {'Pic': 'cifar10png\\test\\dog\\0194.png'}, {'Pic': 'cifar10png\\test\\dog\\0802.png'}, {'Pic': 'cifar10png\\test\\dog\\0816.png'}, {'Pic': 'cifar10png\\test\\dog\\0037.png'}, {'Pic': 'cifar10png\\test\\dog\\0751.png'}, {'Pic': 'cifar10png\\test\\dog\\0989.png'}, {'Pic': 'cifar10png\\test\\dog\\0745.png'}, {'Pic': 'cifar10png\\test\\dog\\0023.png'}, {'Pic': 'cifar10png\\test\\dog\\0779.png'}, {'Pic': 'cifar10png\\test\\dog\\0792.png'}, {'Pic': 'cifar10png\\test\\dog\\0786.png'}, {'Pic': 'cifar10png\\test\\dog\\0976.png'}, {'Pic': 'cifar10png\\test\\dog\\0962.png'}, {'Pic': 'cifar10png\\test\\dog\\0553.png'}, {'Pic': 'cifar10png\\test\\dog\\0235.png'}, {'Pic': 'cifar10png\\test\\dog\\0221.png'}, {'Pic': 'cifar10png\\test\\dog\\0547.png'}, {'Pic': 'cifar10png\\test\\dog\\0209.png'}, {'Pic': 'cifar10png\\test\\dog\\0590.png'}, {'Pic': 'cifar10png\\test\\dog\\0584.png'}, {'Pic': 'cifar10png\\test\\dog\\0285.png'}, {'Pic': 'cifar10png\\test\\dog\\0291.png'}, {'Pic': 'cifar10png\\test\\dog\\0246.png'}, {'Pic': 'cifar10png\\test\\dog\\0520.png'}, {'Pic': 'cifar10png\\test\\dog\\0534.png'}, {'Pic': 'cifar10png\\test\\dog\\0252.png'}, {'Pic': 'cifar10png\\test\\dog\\0508.png'}, {'Pic': 'cifar10png\\test\\dog\\0939.png'}, {'Pic': 'cifar10png\\test\\dog\\0087.png'}, {'Pic': 'cifar10png\\test\\dog\\0093.png'}, {'Pic': 'cifar10png\\test\\dog\\0905.png'}, {'Pic': 'cifar10png\\test\\dog\\0911.png'}, {'Pic': 'cifar10png\\test\\dog\\0722.png'}, {'Pic': 'cifar10png\\test\\dog\\0044.png'}, {'Pic': 'cifar10png\\test\\dog\\0050.png'}, {'Pic': 'cifar10png\\test\\dog\\0736.png'}, {'Pic': 'cifar10png\\test\\dog\\0078.png'}, {'Pic': 'cifar10png\\test\\dog\\0695.png'}, {'Pic': 'cifar10png\\test\\dog\\0859.png'}, {'Pic': 'cifar10png\\test\\dog\\0681.png'}, {'Pic': 'cifar10png\\test\\dog\\0871.png'}, {'Pic': 'cifar10png\\test\\dog\\0865.png'}, {'Pic': 'cifar10png\\test\\dog\\0656.png'}, {'Pic': 'cifar10png\\test\\dog\\0130.png'}, {'Pic': 'cifar10png\\test\\dog\\0124.png'}, {'Pic': 'cifar10png\\test\\dog\\0642.png'}, {'Pic': 'cifar10png\\test\\dog\\0118.png'}, {'Pic': 'cifar10png\\test\\dog\\0497.png'}, {'Pic': 'cifar10png\\test\\dog\\0483.png'}, {'Pic': 'cifar10png\\test\\dog\\0332.png'}, {'Pic': 'cifar10png\\test\\dog\\0454.png'}, {'Pic': 'cifar10png\\test\\dog\\0440.png'}, {'Pic': 'cifar10png\\test\\dog\\0326.png'}, {'Pic': 'cifar10png\\test\\dog\\0468.png'}, {'Pic': 'cifar10png\\test\\dog\\0469.png'}, {'Pic': 'cifar10png\\test\\dog\\0441.png'}, {'Pic': 'cifar10png\\test\\dog\\0327.png'}, {'Pic': 'cifar10png\\test\\dog\\0333.png'}, {'Pic': 'cifar10png\\test\\dog\\0455.png'}, {'Pic': 'cifar10png\\test\\dog\\0482.png'}, {'Pic': 'cifar10png\\test\\dog\\0496.png'}, {'Pic': 'cifar10png\\test\\dog\\0119.png'}, {'Pic': 'cifar10png\\test\\dog\\0125.png'}, {'Pic': 'cifar10png\\test\\dog\\0643.png'}, {'Pic': 'cifar10png\\test\\dog\\0657.png'}, {'Pic': 'cifar10png\\test\\dog\\0131.png'}, {'Pic': 'cifar10png\\test\\dog\\0864.png'}, {'Pic': 'cifar10png\\test\\dog\\0870.png'}, {'Pic': 'cifar10png\\test\\dog\\0680.png'}, {'Pic': 'cifar10png\\test\\dog\\0858.png'}, {'Pic': 'cifar10png\\test\\dog\\0694.png'}, {'Pic': 'cifar10png\\test\\dog\\0079.png'}, {'Pic': 'cifar10png\\test\\dog\\0051.png'}, {'Pic': 'cifar10png\\test\\dog\\0737.png'}, {'Pic': 'cifar10png\\test\\dog\\0723.png'}, {'Pic': 'cifar10png\\test\\dog\\0045.png'}, {'Pic': 'cifar10png\\test\\dog\\0910.png'}, {'Pic': 'cifar10png\\test\\dog\\0904.png'}, {'Pic': 'cifar10png\\test\\dog\\0092.png'}, {'Pic': 'cifar10png\\test\\dog\\0938.png'}, {'Pic': 'cifar10png\\test\\dog\\0086.png'}, {'Pic': 'cifar10png\\test\\dog\\0509.png'}, {'Pic': 'cifar10png\\test\\dog\\0535.png'}, {'Pic': 'cifar10png\\test\\dog\\0253.png'}, {'Pic': 'cifar10png\\test\\dog\\0247.png'}, {'Pic': 'cifar10png\\test\\dog\\0521.png'}, {'Pic': 'cifar10png\\test\\dog\\0290.png'}, {'Pic': 'cifar10png\\test\\dog\\0284.png'}, {'Pic': 'cifar10png\\test\\dog\\0292.png'}, {'Pic': 'cifar10png\\test\\dog\\0286.png'}, {'Pic': 'cifar10png\\test\\dog\\0251.png'}, {'Pic': 'cifar10png\\test\\dog\\0537.png'}, {'Pic': 'cifar10png\\test\\dog\\0523.png'}, {'Pic': 'cifar10png\\test\\dog\\0245.png'}, {'Pic': 'cifar10png\\test\\dog\\0279.png'}, {'Pic': 'cifar10png\\test\\dog\\0090.png'}, {'Pic': 'cifar10png\\test\\dog\\0084.png'}, {'Pic': 'cifar10png\\test\\dog\\0912.png'}, {'Pic': 'cifar10png\\test\\dog\\0906.png'}, {'Pic': 'cifar10png\\test\\dog\\0735.png'}, {'Pic': 'cifar10png\\test\\dog\\0053.png'}, {'Pic': 'cifar10png\\test\\dog\\0047.png'}, {'Pic': 'cifar10png\\test\\dog\\0721.png'}, {'Pic': 'cifar10png\\test\\dog\\0709.png'}, {'Pic': 'cifar10png\\test\\dog\\0682.png'}, {'Pic': 'cifar10png\\test\\dog\\0696.png'}, {'Pic': 'cifar10png\\test\\dog\\0866.png'}, {'Pic': 'cifar10png\\test\\dog\\0872.png'}, {'Pic': 'cifar10png\\test\\dog\\0641.png'}, {'Pic': 'cifar10png\\test\\dog\\0899.png'}, {'Pic': 'cifar10png\\test\\dog\\0127.png'}, {'Pic': 'cifar10png\\test\\dog\\0133.png'}, {'Pic': 'cifar10png\\test\\dog\\0655.png'}, {'Pic': 'cifar10png\\test\\dog\\0669.png'}, {'Pic': 'cifar10png\\test\\dog\\0480.png'}, {'Pic': 'cifar10png\\test\\dog\\0494.png'}, {'Pic': 'cifar10png\\test\\dog\\0325.png'}, {'Pic': 'cifar10png\\test\\dog\\0443.png'}, {'Pic': 'cifar10png\\test\\dog\\0457.png'}, {'Pic': 'cifar10png\\test\\dog\\0331.png'}, {'Pic': 'cifar10png\\test\\dog\\0319.png'}, {'Pic': 'cifar10png\\test\\dog\\0318.png'}, {'Pic': 'cifar10png\\test\\dog\\0456.png'}, {'Pic': 'cifar10png\\test\\dog\\0330.png'}, {'Pic': 'cifar10png\\test\\dog\\0324.png'}, {'Pic': 'cifar10png\\test\\dog\\0442.png'}, {'Pic': 'cifar10png\\test\\dog\\0495.png'}, {'Pic': 'cifar10png\\test\\dog\\0481.png'}, {'Pic': 'cifar10png\\test\\dog\\0668.png'}, {'Pic': 'cifar10png\\test\\dog\\0132.png'}, {'Pic': 'cifar10png\\test\\dog\\0654.png'}, {'Pic': 'cifar10png\\test\\dog\\0898.png'}, {'Pic': 'cifar10png\\test\\dog\\0640.png'}, {'Pic': 'cifar10png\\test\\dog\\0126.png'}, {'Pic': 'cifar10png\\test\\dog\\0873.png'}, {'Pic': 'cifar10png\\test\\dog\\0867.png'}, {'Pic': 'cifar10png\\test\\dog\\0697.png'}, {'Pic': 'cifar10png\\test\\dog\\0683.png'}, {'Pic': 'cifar10png\\test\\dog\\0708.png'}, {'Pic': 'cifar10png\\test\\dog\\0046.png'}, {'Pic': 'cifar10png\\test\\dog\\0720.png'}, {'Pic': 'cifar10png\\test\\dog\\0734.png'}, {'Pic': 'cifar10png\\test\\dog\\0052.png'}, {'Pic': 'cifar10png\\test\\dog\\0907.png'}, {'Pic': 'cifar10png\\test\\dog\\0913.png'}, {'Pic': 'cifar10png\\test\\dog\\0085.png'}, {'Pic': 'cifar10png\\test\\dog\\0091.png'}, {'Pic': 'cifar10png\\test\\dog\\0278.png'}, {'Pic': 'cifar10png\\test\\dog\\0522.png'}, {'Pic': 'cifar10png\\test\\dog\\0244.png'}, {'Pic': 'cifar10png\\test\\dog\\0250.png'}, {'Pic': 'cifar10png\\test\\dog\\0536.png'}, {'Pic': 'cifar10png\\test\\dog\\0287.png'}, {'Pic': 'cifar10png\\test\\dog\\0293.png'}, {'Pic': 'cifar10png\\test\\dog\\0297.png'}, {'Pic': 'cifar10png\\test\\dog\\0283.png'}, {'Pic': 'cifar10png\\test\\dog\\0268.png'}, {'Pic': 'cifar10png\\test\\dog\\0532.png'}, {'Pic': 'cifar10png\\test\\dog\\0254.png'}, {'Pic': 'cifar10png\\test\\dog\\0240.png'}, {'Pic': 'cifar10png\\test\\dog\\0526.png'}, {'Pic': 'cifar10png\\test\\dog\\0917.png'}, {'Pic': 'cifar10png\\test\\dog\\0903.png'}, {'Pic': 'cifar10png\\test\\dog\\0095.png'}, {'Pic': 'cifar10png\\test\\dog\\0081.png'}, {'Pic': 'cifar10png\\test\\dog\\0718.png'}, {'Pic': 'cifar10png\\test\\dog\\0056.png'}, {'Pic': 'cifar10png\\test\\dog\\0730.png'}, {'Pic': 'cifar10png\\test\\dog\\0724.png'}, {'Pic': 'cifar10png\\test\\dog\\0042.png'}, {'Pic': 'cifar10png\\test\\dog\\0863.png'}, {'Pic': 'cifar10png\\test\\dog\\0877.png'}, {'Pic': 'cifar10png\\test\\dog\\0687.png'}, {'Pic': 'cifar10png\\test\\dog\\0693.png'}, {'Pic': 'cifar10png\\test\\dog\\0678.png'}, {'Pic': 'cifar10png\\test\\dog\\0122.png'}, {'Pic': 'cifar10png\\test\\dog\\0644.png'}, {'Pic': 'cifar10png\\test\\dog\\0650.png'}, {'Pic': 'cifar10png\\test\\dog\\0888.png'}, {'Pic': 'cifar10png\\test\\dog\\0136.png'}, {'Pic': 'cifar10png\\test\\dog\\0485.png'}, {'Pic': 'cifar10png\\test\\dog\\0491.png'}, {'Pic': 'cifar10png\\test\\dog\\0308.png'}, {'Pic': 'cifar10png\\test\\dog\\0446.png'}, {'Pic': 'cifar10png\\test\\dog\\0320.png'}, {'Pic': 'cifar10png\\test\\dog\\0334.png'}, {'Pic': 'cifar10png\\test\\dog\\0452.png'}, {'Pic': 'cifar10png\\test\\dog\\0335.png'}, {'Pic': 'cifar10png\\test\\dog\\0453.png'}, {'Pic': 'cifar10png\\test\\dog\\0447.png'}, {'Pic': 'cifar10png\\test\\dog\\0321.png'}, {'Pic': 'cifar10png\\test\\dog\\0309.png'}, {'Pic': 'cifar10png\\test\\dog\\0490.png'}, {'Pic': 'cifar10png\\test\\dog\\0484.png'}, {'Pic': 'cifar10png\\test\\dog\\0889.png'}, {'Pic': 'cifar10png\\test\\dog\\0651.png'}, {'Pic': 'cifar10png\\test\\dog\\0137.png'}, {'Pic': 'cifar10png\\test\\dog\\0123.png'}, {'Pic': 'cifar10png\\test\\dog\\0645.png'}, {'Pic': 'cifar10png\\test\\dog\\0679.png'}, {'Pic': 'cifar10png\\test\\dog\\0692.png'}, {'Pic': 'cifar10png\\test\\dog\\0686.png'}, {'Pic': 'cifar10png\\test\\dog\\0876.png'}, {'Pic': 'cifar10png\\test\\dog\\0862.png'}, {'Pic': 'cifar10png\\test\\dog\\0725.png'}, {'Pic': 'cifar10png\\test\\dog\\0043.png'}, {'Pic': 'cifar10png\\test\\dog\\0057.png'}, {'Pic': 'cifar10png\\test\\dog\\0731.png'}, {'Pic': 'cifar10png\\test\\dog\\0719.png'}, {'Pic': 'cifar10png\\test\\dog\\0080.png'}, {'Pic': 'cifar10png\\test\\dog\\0094.png'}, {'Pic': 'cifar10png\\test\\dog\\0902.png'}, {'Pic': 'cifar10png\\test\\dog\\0916.png'}, {'Pic': 'cifar10png\\test\\dog\\0241.png'}, {'Pic': 'cifar10png\\test\\dog\\0527.png'}, {'Pic': 'cifar10png\\test\\dog\\0533.png'}, {'Pic': 'cifar10png\\test\\dog\\0255.png'}, {'Pic': 'cifar10png\\test\\dog\\0269.png'}, {'Pic': 'cifar10png\\test\\dog\\0282.png'}, {'Pic': 'cifar10png\\test\\dog\\0296.png'}, {'Pic': 'cifar10png\\test\\dog\\0280.png'}, {'Pic': 'cifar10png\\test\\dog\\0294.png'}, {'Pic': 'cifar10png\\test\\dog\\0519.png'}, {'Pic': 'cifar10png\\test\\dog\\0525.png'}, {'Pic': 'cifar10png\\test\\dog\\0243.png'}, {'Pic': 'cifar10png\\test\\dog\\0257.png'}, {'Pic': 'cifar10png\\test\\dog\\0531.png'}, {'Pic': 'cifar10png\\test\\dog\\0900.png'}, {'Pic': 'cifar10png\\test\\dog\\0914.png'}, {'Pic': 'cifar10png\\test\\dog\\0082.png'}, {'Pic': 'cifar10png\\test\\dog\\0928.png'}, {'Pic': 'cifar10png\\test\\dog\\0096.png'}, {'Pic': 'cifar10png\\test\\dog\\0069.png'}, {'Pic': 'cifar10png\\test\\dog\\0041.png'}, {'Pic': 'cifar10png\\test\\dog\\0727.png'}, {'Pic': 'cifar10png\\test\\dog\\0733.png'}, {'Pic': 'cifar10png\\test\\dog\\0055.png'}, {'Pic': 'cifar10png\\test\\dog\\0874.png'}, {'Pic': 'cifar10png\\test\\dog\\0860.png'}, {'Pic': 'cifar10png\\test\\dog\\0848.png'}, {'Pic': 'cifar10png\\test\\dog\\0690.png'}, {'Pic': 'cifar10png\\test\\dog\\0684.png'}, {'Pic': 'cifar10png\\test\\dog\\0109.png'}, {'Pic': 'cifar10png\\test\\dog\\0135.png'}, {'Pic': 'cifar10png\\test\\dog\\0653.png'}, {'Pic': 'cifar10png\\test\\dog\\0647.png'}, {'Pic': 'cifar10png\\test\\dog\\0121.png'}, {'Pic': 'cifar10png\\test\\dog\\0492.png'}, {'Pic': 'cifar10png\\test\\dog\\0486.png'}, {'Pic': 'cifar10png\\test\\dog\\0479.png'}, {'Pic': 'cifar10png\\test\\dog\\0451.png'}, {'Pic': 'cifar10png\\test\\dog\\0337.png'}, {'Pic': 'cifar10png\\test\\dog\\0323.png'}, {'Pic': 'cifar10png\\test\\dog\\0445.png'}, {'Pic': 'cifar10png\\test\\dog\\0322.png'}, {'Pic': 'cifar10png\\test\\dog\\0444.png'}, {'Pic': 'cifar10png\\test\\dog\\0450.png'}, {'Pic': 'cifar10png\\test\\dog\\0336.png'}, {'Pic': 'cifar10png\\test\\dog\\1000.png'}, {'Pic': 'cifar10png\\test\\dog\\0478.png'}, {'Pic': 'cifar10png\\test\\dog\\0487.png'}, {'Pic': 'cifar10png\\test\\dog\\0493.png'}, {'Pic': 'cifar10png\\test\\dog\\0646.png'}, {'Pic': 'cifar10png\\test\\dog\\0120.png'}, {'Pic': 'cifar10png\\test\\dog\\0134.png'}, {'Pic': 'cifar10png\\test\\dog\\0652.png'}, {'Pic': 'cifar10png\\test\\dog\\0108.png'}, {'Pic': 'cifar10png\\test\\dog\\0685.png'}, {'Pic': 'cifar10png\\test\\dog\\0691.png'}, {'Pic': 'cifar10png\\test\\dog\\0849.png'}, {'Pic': 'cifar10png\\test\\dog\\0861.png'}, {'Pic': 'cifar10png\\test\\dog\\0875.png'}, {'Pic': 'cifar10png\\test\\dog\\0732.png'}, {'Pic': 'cifar10png\\test\\dog\\0054.png'}, {'Pic': 'cifar10png\\test\\dog\\0040.png'}, {'Pic': 'cifar10png\\test\\dog\\0726.png'}, {'Pic': 'cifar10png\\test\\dog\\0068.png'}, {'Pic': 'cifar10png\\test\\dog\\0929.png'}, {'Pic': 'cifar10png\\test\\dog\\0097.png'}, {'Pic': 'cifar10png\\test\\dog\\0083.png'}, {'Pic': 'cifar10png\\test\\dog\\0915.png'}, {'Pic': 'cifar10png\\test\\dog\\0901.png'}, {'Pic': 'cifar10png\\test\\dog\\0256.png'}, {'Pic': 'cifar10png\\test\\dog\\0530.png'}, {'Pic': 'cifar10png\\test\\dog\\0524.png'}, {'Pic': 'cifar10png\\test\\dog\\0242.png'}, {'Pic': 'cifar10png\\test\\dog\\0518.png'}, {'Pic': 'cifar10png\\test\\dog\\0295.png'}, {'Pic': 'cifar10png\\test\\dog\\0281.png'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="cifar10png/dog_test.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_4" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="imageBlock1"/>
+    <Routine name="quickTextBlock2"/>
+    <LoopTerminator name="trials_4"/>
+  </Flow>
+</PsychoPy2experiment>
